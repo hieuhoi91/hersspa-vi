@@ -1,0 +1,255 @@
+{
+  "thumbnail": [
+    {
+      "id": 1,
+      "image": "/thumbnail-1.jpg"
+    },
+    {
+      "id": 2,
+      "image": "/thumbnail-2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "/thumbnail-3.jpg"
+    },
+    {
+      "id": 4,
+      "image": "/thumbnail-4.jpg"
+    },
+    {
+      "id": 5,
+      "image": "/thumbnail-5.jpg"
+    }
+  ],
+  "about": {
+    "gallery": {
+      "images": [
+        {
+          "id": 1,
+          "src": "/thumbnail-1.jpg",
+          "alt": "Spa Reception Area",
+          "category": "reception"
+        },
+        {
+          "id": 2,
+          "src": "/thumbnail-2.jpg",
+          "alt": "Treatment Room",
+          "category": "treatment"
+        },
+        {
+          "id": 3,
+          "src": "/thumbnail-3.jpg",
+          "alt": "Relaxation Space",
+          "category": "relaxation"
+        },
+        {
+          "id": 4,
+          "src": "/thumbnail-4.jpg",
+          "alt": "Spa Amenities",
+          "category": "amenities"
+        },
+        {
+          "id": 5,
+          "src": "/thumbnail-5.jpg",
+          "alt": "Wellness Center",
+          "category": "wellness"
+        }
+      ]
+    },
+    "title": "Chào mừng đến với Her S spa",
+    "content_1": "HerSspa là một chuỗi spa Mini Home Spa toàn cầu, cung cấp các giải pháp toàn diện và hiệu quả cho chăm sóc da, phục hồi và thư giãn toàn thân.",
+    "content_2": "Với các thiết bị và sản phẩm sử dụng công nghệ ageLOC độc quyền từ Hoa Kỳ, có khả năng tác động trực tiếp và kích hoạt lại các chức năng tế bào trẻ hóa, giúp ngăn ngừa sự lão hóa từ nội bộ.",
+    "spa_section": {
+      "thumbnail": "/about-thumbnail.jpg",
+      "title": "Bao lâu rồi... KHÔNG TỪNG YÊU CHÍNH MÌNH?",
+      "subtitle_highlight": "KHÔNG TỪNG YÊU CHÍNH MÌNH?",
+      "description_1": "Tải nặng, mất ngủ, da khô, lão hóa sớm, tăng cân không kiểm soát...",
+      "description_2": "Tất cả những điều này đều là dấu hiệu cho thấy cơ thể đang cần đến sự giúp đỡ.",
+      "treatment_intro": "Chăm sóc da và thư giãn tại spa không chỉ là một món quà thư giãn, mà còn là cách để:",
+      "benefits": [
+        "Đào thải độc tố từ bên trong cơ thể",
+        "Phục hồi da và khôi phục độ sáng",
+        "Giải tỏa stress và nuôi dưỡng cảm xúc tích cực",
+        "Tăng cường miễn dịch và cải thiện sức khỏe tổng thể"
+      ],
+      "highlight_text": "Khi cơ thể khỏe mạnh – da sáng – tâm hồn sáng láng!",
+      "closing_text": "Hãy để tuổi trẻ của bạn luôn đầy năng lượng và vẻ đẹp sáng láng."
+    }
+  },
+  "services": {
+    "title": "Dịch vụ đặc trưng",
+    "subtitle": "Bạn được yêu thương ở đây",
+    "button_text": "XEM TẤT CẢ DỊCH VỤ",
+    "categories": ["THƯ GIÃN TOÀN THÂN", "CHĂM SÓC DA"],
+    "thumbnail": "/service-thumbnail.jpg",
+    "items": [
+      {
+        "id": 1,
+        "title": "CHĂM SÓC DA & PHỤC HỒI DA",
+        "image": "/service-1.jpg",
+        "benefits": [
+          "Đào thải độc tố từ bên trong cơ thể",
+          "Phục hồi da và khôi phục độ sáng",
+          "Giải tỏa stress và nuôi dưỡng cảm xúc tích cực",
+          "Tăng cường miễn dịch và cải thiện sức khỏe tổng thể"
+        ],
+        "category": "skincare"
+      },
+      {
+        "id": 2,
+        "title": "THƯ GIÃN TOÀN THÂN",
+        "image": "/service-2.jpg",
+        "benefits": [
+          "Đào thải độc tố từ bên trong cơ thể",
+          "Phục hồi da và khôi phục độ sáng",
+          "Giải tỏa stress và nuôi dưỡng cảm xúc tích cực",
+          "Tăng cường miễn dịch và cải thiện sức khỏe tổng thể"
+        ],
+        "category": "antiaging"
+      },
+      {
+        "id": 3,
+        "title": "THƯ GIÃN TOÀN THÂN",
+        "image": "/service-3.jpg",
+        "benefits": [
+          "Đào thải độc tố từ bên trong cơ thể",
+          "Phục hồi da và khôi phục độ sáng",
+          "Giải tỏa stress và nuôi dưỡng cảm xúc tích cực",
+          "Tăng cường miễn dịch và cải thiện sức khỏe tổng thể"
+        ],
+        "category": "massage"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "LỢI ÍCH NỔI BẬT",
+    "subtitle": "TẠI SAO CHỌN CHÚNG TÔI",
+    "sections": [
+      {
+        "id": 1,
+        "number": "01",
+        "title": "Công nghệ độc quyền và sản phẩm cao cấp từ Hoa Kỳ",
+        "description": "Công nghệ ageLOC độc quyền được cấp bằng sáng chế tại Hoa Kỳ có khả năng tác động trực tiếp vào bên trong da. Nó giúp phục hồi sức khỏe tế bào, mang lại vẻ đẹp trẻ trung cho phụ nữ, đại diện cho sự tiến bộ trong công nghệ làm đẹp an toàn và hiệu quả. Chúng tôi cam kết các sản phẩm chính hãng.",
+        "certificate": "/why-1.jpg"
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "title": "Kết quả ngay lập tức từ lần đầu tiên",
+        "description": "Chăm sóc kết hợp công nghệ tiên tiến với thảo dược đặc biệt để kích hoạt hệ thống tuần hoàn lưu thông trên toàn thân, giúp phục hồi toàn bộ vẻ đẹp da.",
+        "images": "/why-2.jpg"
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "title": "Đội ngũ chuyên gia và chủ spa đầy trách nhiệm",
+        "description": "Chúng tôi luôn cố gắng cung cấp trải nghiệm tốt nhất và phù hợp nhất cho khách hàng.",
+        "teamImage": "/why-3.jpg"
+      }
+    ]
+  },
+  "partners": {
+    "title": "ĐỐI TÁC",
+    "titleEn": "FOR PARTNERS WHO WANT TO FRANCHISE THE BRAND",
+    "buttonText": "XEM THÊM",
+    "buttonTextEn": "XEM THÊM",
+    "items": [
+      {
+        "id": 1,
+        "image": "/partner-1.jpg",
+        "title": "Quy mô nhỏ: đầu tư tối ưu cho việc thiết lập, trang trí, thiết bị và đào tạo quy trình",
+        "subtitle": "Tiêu chí: Nhỏ nhưng đẹp, chuyên nghiệp, chất lượng sản phẩm 100% từ Hoa Kỳ"
+      },
+      {
+        "id": 2,
+        "image": "/partner-2.jpg",
+        "title": "Đào tạo chuyên nghiệp và tư vấn chăm sóc",
+        "subtitle": "Hỗ trợ khi mở rộng chuỗi chi nhánh (miễn phí)",
+        "description": "Hỗ trợ phát triển khách hàng sử dụng sản phẩm tại Việt Nam và 50 quốc gia."
+      },
+      {
+        "id": 3,
+        "image": "/partner-3.jpg",
+        "title": "Thời gian triển khai Mini HomeSpa: 3-7 ngày",
+        "subtitle": "Không gian cần thiết cho Mini HomeSpa: 10-30m2"
+      }
+    ]
+  },
+  "footer": {
+    "stats": [
+      {
+        "id": 1,
+        "number": "5+",
+        "label": "Tỷ lệ hài lòng khách hàng"
+      },
+      {
+        "id": 2,
+        "number": "200+",
+        "label": "Chi nhánh"
+      }
+    ],
+    "contact": {
+      "brand": "Her S Spa",
+      "hotline": "Hotline:",
+      "email": "Email: hersspa.mus@gmail.com",
+      "website": "Website: https://hersspa.com"
+    },
+    "customerService": {
+      "title": "DỊCH VỤ KHÁCH HÀNG",
+      "hours": [
+        "Giờ mở cửa",
+        "Mở cửa hàng hàng ngày",
+        "Lịch hẹn cuối cùng trước 1 NGÀY"
+      ]
+    },
+    "map": {
+      "title": "Her S spa",
+      "subtitle": "Thẩy dược",
+      "description": "Thư giãn cùng được top bạng Google My Maps. Tao bản đồ của riêng mình."
+    }
+  },
+  "gallery": {
+    "title": "HOẠT ĐỘNG CỘNG ĐỒNG HER S SPA",
+    "images": {
+      "large": ["/gallery-1.jpg", "/gallery-2.jpg"],
+      "grid": [
+        "/gallery-3.jpg",
+        "/gallery-4.jpg",
+        "/gallery-5.jpg",
+        "/gallery-6.jpg",
+        "/gallery-7.jpg",
+        "/gallery-8.jpg",
+        "/gallery-9.jpg",
+        "/gallery-10.jpg",
+        "/gallery-11.jpg",
+        "/gallery-12.jpg"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "QUYỀN LỢI & LỢI ÍCH - KHÔNG PHÍ",
+    "titleEn": "QUYỀN LỢI & LỢI ÍCH - KHÔNG PHÍ",
+    "items": [
+      {
+        "id": 1,
+        "number": "1",
+        "title": "Sử dụng thương hiệu Her S Spa trong các hoạt động kinh doanh của bạn"
+      },
+      {
+        "id": 2,
+        "number": "2",
+        "title": "Nhận các quy trình chăm sóc da và hướng dẫn thiết lập"
+      },
+      {
+        "id": 3,
+        "number": "3",
+        "title": "Hỗ trợ cho việc mua sắm sản phẩm và thiết bị trực tiếp từ nhà sản xuất"
+      },
+      {
+        "id": 4,
+        "number": "4",
+        "title": "Hợp tác tư vấn lâu dài cho các hoạt động kinh doanh và phát triển"
+      }
+    ]
+  }
+}

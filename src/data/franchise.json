@@ -1,0 +1,289 @@
+{
+  "franchiseItems": [
+    {
+      "id": 1,
+      "label": "CHI NHÁNH HÀ NỘI.",
+      "href": "#hanoi",
+      "children": [
+        {
+          "id": "hersspamimosa",
+          "label": "Her S Spa Mimosa"
+        },
+        {
+          "id": "phuong.vu.750943",
+          "label": "Her S Spa Charming"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa Revive"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa LẠNG SƠN"
+        },
+        {
+          "id": "100095600441134",
+          "label": "HER S SPA HOÀN KIẾM"
+        },
+        {
+          "id": "61575042791094",
+          "label": "HER S SPA La Vie en Rose "
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa MỘC MIÊN"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa BÁCH KHOA"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa AROMA"
+        },
+        {
+          "id": "61576006793497",
+          "label": "HER S SPA HELZA "
+        },
+        {
+          "id": "61573979998223",
+          "label": "Her S Spa Green Park"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA GREEN RETREAT"
+        },
+        {
+          "id": "61569014319156",
+          "label": "HER S SPA HEALING "
+        },
+        {
+          "id": "61573979998223",
+          "label": "HER S SPA THANH XUÂN"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA BY TRANG KIM"
+        },
+        {
+          "id": "61573979998223",
+          "label": "HER S SPA NEW SKYLINE"
+        },
+        {
+          "id": "61573979998223",
+          "label": "HER S SPA BÌNH AN"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA LUNARIA"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA ELITE"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA EVA"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA EMOTION"
+        },
+        {
+          "id": "le.thu.477713",
+          "label": "Her S spa Lumi"
+        },
+        {
+          "id": "61576884015120",
+          "label": "Her S spa Casa"
+        },
+        {
+          "id": "61580613807079",
+          "label": "Her S spa Mocha Mouse"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S spa Be You"
+        },
+        {
+          "id": "nguyenhong.thu.33",
+          "label": "Her S spa Hồng Thư"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S spa Serene"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S spa Thăng Long Number One"
+        },
+
+        {
+          "id": "Chưa có",
+          "label": "Her S spa Là Nàng"
+        },
+
+        {
+          "id": "61576884015120",
+          "label": "Her S Spa Chi Le"
+        },
+        {
+          "id": "100090720579386",
+          "label": "Her S Spa Tây Hồ"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "CHI NHÁNH TP.HCM.",
+      "href": "#hcm",
+      "children": [
+        {
+          "id": "61573465380320",
+          "label": "Her S Spa"
+        },
+        {
+          "id": "hersspa.serena",
+          "label": "Her S spa Serena"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HerSSpa Hoa Thạch Thảo"
+        },
+        {
+          "id": "61563624822277",
+          "label": "Her S spa Stella"
+        },
+        {
+          "id": "100094645054971",
+          "label": "Her S Spa quận 10"
+        },
+        {
+          "id": "61557968798339",
+          "label": "HER S SPA TÔ HIẾN THÀNH"
+        },
+        {
+          "id": "61575266574469",
+          "label": "Her S Spa Royal"
+        },
+        {
+          "id": "ThaoLe4878",
+          "label": "Her S Spa Park Riverside"
+        },
+        {
+          "id": "HerSSpabyMaiNguyen",
+          "label": "Her S Spa Sunny House"
+        },
+        {
+          "id": "61573935743469",
+          "label": "Her S Spa Phan Xích Long"
+        },
+        {
+          "id": "61558497516586",
+          "label": "HER S SPA ROSE"
+        },
+        {
+          "id": "hersspa.phongthaiadong",
+          "label": "Her S Spa Phong Thái Á Đông"
+        },
+        {
+          "id": "61551162441005",
+          "label": "Her S Spa Midtown"
+        },
+        {
+          "id": "61556071182775",
+          "label": "Her S Spa Vinhomes Central Park"
+        },
+        {
+          "id": "61556071182775",
+          "label": "Her S Spa Moon Swan"
+        },
+        {
+          "id": "100063558221795",
+          "label": "Her S Spa by Mai Thy"
+        },
+        {
+          "id": "hersspa.serena",
+          "label": "Her S spa Sala"
+        },
+        {
+          "id": "100094549872783",
+          "label": "Her S Spa Tân Phú"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HerSspa by Ms. Thảo"
+        },
+        {
+          "id": "HerSSpaLuminis",
+          "label": "HerSspa Luminis"
+        },
+        {
+          "id": "100094507437948",
+          "label": "Her S Spa"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa Thanh Xuân"
+        },
+        {
+          "id": "61574071684386",
+          "label": "Her S Spa Biconsi Thủ Dầu Một"
+        },
+        {
+          "id": "61574071684386",
+          "label": "Her S spa Sunshine"
+        },
+        {
+          "id": "61574071684386",
+          "label": "Her S spa Thuận An"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA LUMIERE MAISON"
+        },
+        {
+          "id": "61579632892044",
+          "label": "HER S SPA BẢO LỘC"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa Peacelife"
+        },
+        {
+          "id": "Peacelifetobe.store",
+          "label": "Her S Spa"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "CHI NHÁNH TỈNH.",
+      "href": "#tinh",
+      "children": []
+    },
+    {
+      "id": 4,
+      "label": "CHI NHÁNH NƯỚC NGOÀI.",
+      "href": "#nuocngoai",
+      "children": [
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa Purun Hada"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa Budapest"
+        },
+        {
+          "id": "Chưa có",
+          "label": "Her S Spa Malaysia"
+        },
+        {
+          "id": "Chưa có",
+          "label": "HER S SPA Mỹ"
+        }
+      ]
+    }
+  ]
+}
