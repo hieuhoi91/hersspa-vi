@@ -37,11 +37,11 @@ const Gallery = () => {
   return (
     <section
       id="gallery"
-      className="py-8 md:py-12 lg:py-16 bg-gray-50 relative scroll-mt-60 bg-[url('/minimal-bg-pattern.jpg')]"
+      className="py-8 md:py-12 lg:py-16 bg-gray-50 relative scroll-mt-60 bg-[url('/assets/minimal-bg-pattern.jpg')]"
     >
       <div className="w-full max-w-[1200px] mx-auto px-4">
         <Image
-          src="/service-decor.png"
+          src="/assets/service-decor.png"
           alt="Her S spa"
           width={100}
           height={100}
@@ -55,18 +55,23 @@ const Gallery = () => {
           <div className="w-16 md:w-20 h-1 bg-gradient-to-r from-amber-500 to-orange-500 mx-auto"></div>
         </div>
 
-        <div ref={sectionRef} className="space-y-8 md:space-y-10 lg:space-y-12">
+        <div
+          ref={sectionRef}
+          className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12"
+        >
           {/* Row 1: First Large Image */}
           <div
             className={`${isVisible ? 'animate-slide-in-right' : 'opacity-0'}`}
             style={{ animationDelay: '0.1s' }}
           >
-            <div className="relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group">
+            <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[450px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group hover:scale-[1.02] hover:shadow-xl">
               <Image
                 src={data.gallery.images.large[0]}
                 alt="Her S spa community activities"
                 fill
-                className="object-cover"
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 1200px"
+                priority
               />
             </div>
           </div>
@@ -76,12 +81,13 @@ const Gallery = () => {
             className={`${isVisible ? 'animate-slide-in-right' : 'opacity-0'}`}
             style={{ animationDelay: '0.3s' }}
           >
-            <div className="relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group">
+            <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group hover:scale-[1.02] hover:shadow-xl">
               <Image
                 src={data.gallery.images.large[1]}
                 alt="Her S spa team activities"
                 fill
-                className="object-cover"
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 1200px"
               />
             </div>
           </div>
@@ -91,17 +97,18 @@ const Gallery = () => {
             className={`${isVisible ? 'animate-slide-in-right' : 'opacity-0'}`}
             style={{ animationDelay: '0.5s' }}
           >
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-2 md:gap-3 lg:gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 sm:gap-3 md:gap-4 lg:gap-5">
               {data.gallery.images.grid.map((src, index) => (
                 <div
                   key={index}
-                  className="relative aspect-square rounded-lg overflow-hidden"
+                  className="relative aspect-square rounded-md sm:rounded-lg overflow-hidden group hover:scale-105 transition-all duration-300 hover:shadow-lg"
                 >
                   <Image
                     src={src}
                     alt={`Community activity ${index + 1}`}
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
                   />
                 </div>
               ))}

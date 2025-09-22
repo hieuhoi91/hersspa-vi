@@ -2,23 +2,23 @@
   "thumbnail": [
     {
       "id": 1,
-      "image": "/thumbnail-1.jpg"
+      "image": "/assets/thumbnail-1.jpg"
     },
     {
       "id": 2,
-      "image": "/thumbnail-2.jpg"
+      "image": "/assets/thumbnail-2.jpg"
     },
     {
       "id": 3,
-      "image": "/thumbnail-3.jpg"
+      "image": "/assets/thumbnail-3.jpg"
     },
     {
       "id": 4,
-      "image": "/thumbnail-4.jpg"
+      "image": "/assets/thumbnail-4.jpg"
     },
     {
       "id": 5,
-      "image": "/thumbnail-5.jpg"
+      "image": "/assets/thumbnail-5.jpg"
     }
   ],
   "about": {
@@ -26,31 +26,31 @@
       "images": [
         {
           "id": 1,
-          "src": "/thumbnail-1.jpg",
+          "src": "/assets/thumbnail-1.jpg",
           "alt": "Spa Reception Area",
           "category": "reception"
         },
         {
           "id": 2,
-          "src": "/thumbnail-2.jpg",
+          "src": "/assets/thumbnail-2.jpg",
           "alt": "Treatment Room",
           "category": "treatment"
         },
         {
           "id": 3,
-          "src": "/thumbnail-3.jpg",
+          "src": "/assets/thumbnail-3.jpg",
           "alt": "Relaxation Space",
           "category": "relaxation"
         },
         {
           "id": 4,
-          "src": "/thumbnail-4.jpg",
+          "src": "/assets/thumbnail-4.jpg",
           "alt": "Spa Amenities",
           "category": "amenities"
         },
         {
           "id": 5,
-          "src": "/thumbnail-5.jpg",
+          "src": "/assets/thumbnail-5.jpg",
           "alt": "Wellness Center",
           "category": "wellness"
         }
@@ -60,7 +60,7 @@
     "content_1": "HerSspa là một chuỗi spa Mini Home Spa toàn cầu, cung cấp các giải pháp toàn diện và hiệu quả cho chăm sóc da, phục hồi và thư giãn toàn thân.",
     "content_2": "Với các thiết bị và sản phẩm sử dụng công nghệ ageLOC độc quyền từ Hoa Kỳ, có khả năng tác động trực tiếp và kích hoạt lại các chức năng tế bào trẻ hóa, giúp ngăn ngừa sự lão hóa từ nội bộ.",
     "spa_section": {
-      "thumbnail": "/about-thumbnail.jpg",
+      "thumbnail": "/assets/about-thumbnail.jpg",
       "title": "Bao lâu rồi... KHÔNG TỪNG YÊU CHÍNH MÌNH?",
       "subtitle_highlight": "KHÔNG TỪNG YÊU CHÍNH MÌNH?",
       "description_1": "Tải nặng, mất ngủ, da khô, lão hóa sớm, tăng cân không kiểm soát...",
@@ -86,7 +86,7 @@
       {
         "id": 1,
         "title": "CHĂM SÓC DA & PHỤC HỒI DA",
-        "image": "/service-1.jpg",
+        "image": "/assets/service-1.jpg",
         "benefits": [
           "Đào thải độc tố từ bên trong cơ thể",
           "Phục hồi da và khôi phục độ sáng",
@@ -98,7 +98,7 @@
       {
         "id": 2,
         "title": "THƯ GIÃN TOÀN THÂN",
-        "image": "/service-2.jpg",
+        "image": "/assets/service-2.jpg",
         "benefits": [
           "Đào thải độc tố từ bên trong cơ thể",
           "Phục hồi da và khôi phục độ sáng",
@@ -110,7 +110,7 @@
       {
         "id": 3,
         "title": "THƯ GIÃN TOÀN THÂN",
-        "image": "/service-3.jpg",
+        "image": "/assets/service-3.jpg",
         "benefits": [
           "Đào thải độc tố từ bên trong cơ thể",
           "Phục hồi da và khôi phục độ sáng",
@@ -130,21 +130,21 @@
         "number": "01",
         "title": "Công nghệ độc quyền và sản phẩm cao cấp từ Hoa Kỳ",
         "description": "Công nghệ ageLOC độc quyền được cấp bằng sáng chế tại Hoa Kỳ có khả năng tác động trực tiếp vào bên trong da. Nó giúp phục hồi sức khỏe tế bào, mang lại vẻ đẹp trẻ trung cho phụ nữ, đại diện cho sự tiến bộ trong công nghệ làm đẹp an toàn và hiệu quả. Chúng tôi cam kết các sản phẩm chính hãng.",
-        "certificate": "/why-1.jpg"
+        "certificate": "/assets/why-1.jpg"
       },
       {
         "id": 2,
         "number": "02",
         "title": "Kết quả ngay lập tức từ lần đầu tiên",
         "description": "Chăm sóc kết hợp công nghệ tiên tiến với thảo dược đặc biệt để kích hoạt hệ thống tuần hoàn lưu thông trên toàn thân, giúp phục hồi toàn bộ vẻ đẹp da.",
-        "images": "/why-2.jpg"
+        "images": "/assets/why-2.jpg"
       },
       {
         "id": 3,
         "number": "03",
         "title": "Đội ngũ chuyên gia và chủ spa đầy trách nhiệm",
         "description": "Chúng tôi luôn cố gắng cung cấp trải nghiệm tốt nhất và phù hợp nhất cho khách hàng.",
-        "teamImage": "/why-3.jpg"
+        "teamImage": "/assets/why-3.jpg"
       }
     ]
   },
@@ -156,20 +156,20 @@
     "items": [
       {
         "id": 1,
-        "image": "/partner-1.jpg",
+        "image": "/assets/partner-1.jpg",
         "title": "Quy mô nhỏ: đầu tư tối ưu cho việc thiết lập, trang trí, thiết bị và đào tạo quy trình",
         "subtitle": "Tiêu chí: Nhỏ nhưng đẹp, chuyên nghiệp, chất lượng sản phẩm 100% từ Hoa Kỳ"
       },
       {
         "id": 2,
-        "image": "/partner-2.jpg",
+        "image": "/assets/partner-2.jpg",
         "title": "Đào tạo chuyên nghiệp và tư vấn chăm sóc",
         "subtitle": "Hỗ trợ khi mở rộng chuỗi chi nhánh (miễn phí)",
         "description": "Hỗ trợ phát triển khách hàng sử dụng sản phẩm tại Việt Nam và 50 quốc gia."
       },
       {
         "id": 3,
-        "image": "/partner-3.jpg",
+        "image": "/assets/partner-3.jpg",
         "title": "Thời gian triển khai Mini HomeSpa: 3-7 ngày",
         "subtitle": "Không gian cần thiết cho Mini HomeSpa: 10-30m2"
       }
@@ -211,18 +211,18 @@
   "gallery": {
     "title": "HOẠT ĐỘNG CỘNG ĐỒNG HER S SPA",
     "images": {
-      "large": ["/gallery-1.jpg", "/gallery-2.jpg"],
+      "large": ["/assets/gallery-1.jpg", "/assets/gallery-2.jpg"],
       "grid": [
-        "/gallery-3.jpg",
-        "/gallery-4.jpg",
-        "/gallery-5.jpg",
-        "/gallery-6.jpg",
-        "/gallery-7.jpg",
-        "/gallery-8.jpg",
-        "/gallery-9.jpg",
-        "/gallery-10.jpg",
-        "/gallery-11.jpg",
-        "/gallery-12.jpg"
+        "/assets/gallery-3.jpg",
+        "/assets/gallery-4.jpg",
+        "/assets/gallery-5.jpg",
+        "/assets/gallery-6.jpg",
+        "/assets/gallery-7.jpg",
+        "/assets/gallery-8.jpg",
+        "/assets/gallery-9.jpg",
+        "/assets/gallery-10.jpg",
+        "/assets/gallery-11.jpg",
+        "/assets/gallery-12.jpg"
       ]
     }
   },

@@ -42,7 +42,7 @@ const Services = () => {
       <section
         ref={sectionRef}
         id="service"
-        className="bg-gray-50 scroll-mt-60 bg-[url('/minimal-bg-pattern.jpg')]"
+        className="bg-gray-50 scroll-mt-60 bg-[url('/assets/minimal-bg-pattern.jpg')]"
       >
         <div className="w-full max-w-[1200px] mx-auto px-4">
           {/* Header */}
@@ -51,7 +51,7 @@ const Services = () => {
               <div className="flex items-center justify-end w-full space-x-2 md:space-x-4">
                 <div className="w-12 md:w-16 lg:w-20">
                   <Image
-                    src="/service-decor.png"
+                    src="/assets/service-decor.png"
                     alt="decor"
                     width={200}
                     height={200}
@@ -123,9 +123,9 @@ const Services = () => {
         </div>
         <div
           className="mt-8 md:mt-12 lg:mt-16 bg-cover bg-center overflow-hidden"
-          style={{ backgroundImage: "url('/minimal-bg-pattern.jpg')" }}
+          style={{ backgroundImage: "url('/assets/minimal-bg-pattern.jpg')" }}
         >
-          <div className="bg-[url('/service-thumbnail.jpg')] bg-cover bg-black/50 bg-blend-overlay bg-center p-6 md:p-8 lg:p-12">
+          <div className="bg-[url('/assets/service-thumbnail.jpg')] bg-cover bg-black/50 bg-blend-overlay bg-center p-6 md:p-8 lg:p-12">
             <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
               {data.services.categories.map((category, index) => (
                 <div

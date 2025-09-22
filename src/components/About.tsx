@@ -81,7 +81,7 @@ const About = () => {
       </div>
 
       {/* Spa Treatment Section */}
-      <div className="py-8 md:py-12 lg:py-16 bg-[url('/minimal-bg-pattern.jpg')]">
+      <div className="py-8 md:py-12 lg:py-16 bg-[url('/assets/assets/minimal-bg-pattern.jpg')]">
         {/* Spa Gallery Section */}
         <div
           ref={galleryRef}

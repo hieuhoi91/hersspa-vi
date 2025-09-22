@@ -160,7 +160,7 @@ const Header = () => {
         {/* Logo */}
         <div className="col-span-1 md:col-span-1 relative z-50 flex justify-center">
           <Image
-            src="/logo-2.png"
+            src="/assets/logo-2.png"
             alt="Logo"
             width={200}
             height={200}
