@@ -88,7 +88,7 @@ const Header = () => {
     setIsMobileMenuOpen(false);
   };
 
-  const openMessenger = (id: any) => {
+  const openMessenger = (id: string) => {
     const appLink = `fb-messenger://user-thread/${id}`;
     const webLink = `https://m.me/${id}`;
 
@@ -234,7 +234,7 @@ const Header = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3 max-h-[60vh] md:max-h-96 overflow-y-auto flex-1">
             {selectedFranchise?.children?.map(
-              (location: { id: any; label: string; address: string }) => (
+              (location: { id: string; label: string; address: string }) => (
                 <button
                   onClick={() => openMessenger(location.id)}
                   key={location.id}

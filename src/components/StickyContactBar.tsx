@@ -7,7 +7,7 @@ export const StickyContactBar = ({
   sectionRef: React.RefObject<HTMLDivElement | null>;
 }) => {
   const [isSticky, setIsSticky] = useState(true);
-  const { isDropdownOpen, setIsDropdownOpen } = useDialogStore();
+  const { setIsDropdownOpen } = useDialogStore();
 
   useEffect(() => {
     const handleScroll = () => {
