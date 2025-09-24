@@ -145,7 +145,7 @@ const Header = () => {
               </div>
               <Separator className="my-4" />
               <Link
-                href="https://www.hersspa.com/"
+                href="https://en.hersspa.com"
                 className="cursor-pointer text-white py-1.5 rounded-md relative"
               >
                 English
@@ -196,7 +196,7 @@ const Header = () => {
             </span>
           </button>
           <Link
-            href="https://english.hersspa.com/"
+            href="https://en.hersspa.com"
             className="cursor-pointer px-3 text-white md:px-4 lg:px-6 py-1.5 md:py-2 hidden md:block rounded-md relative"
           >
             English
