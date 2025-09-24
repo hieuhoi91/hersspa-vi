@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
+import { useDialogStore } from '@/store/useDialogStore';
 import franchiseData from '../data/franchise.json';
 import {
   Dialog,
@@ -50,10 +51,10 @@ const navItems = [
 ];
 
 const Header = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const { isDropdownOpen, setIsDropdownOpen } = useDialogStore();
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [selectedFranchise, setSelectedFranchise] = useState<any>(null);
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
@@ -85,6 +86,19 @@ const Header = () => {
 
   const handleNavItemClick = () => {
     setIsMobileMenuOpen(false);
+  };
+
+  const openMessenger = (id: any) => {
+    const appLink = `fb-messenger://user-thread/${id}`;
+    const webLink = `https://m.me/${id}`;
+
+    // Ưu tiên mở app Messenger
+    window.location.href = appLink;
+
+    // Nếu không có app Messenger thì fallback sang web
+    setTimeout(() => {
+      window.location.href = webLink;
+    }, 1000);
   };
 
   return (
@@ -220,12 +234,11 @@ const Header = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-3 max-h-[60vh] md:max-h-96 overflow-y-auto flex-1">
             {selectedFranchise?.children?.map(
-              (location: { id: number; label: string; address: string }) => (
-                <Link
-                  href={`https://m.me/${location.id}`}
-                  target="_blank"
+              (location: { id: any; label: string; address: string }) => (
+                <button
+                  onClick={() => openMessenger(location.id)}
                   key={location.id}
-                  className="p-2 md:p-3 bg-[#FFD56E] bg-opacity-10 rounded-md border flex flex-col gap-2 border-[#543217] border-opacity-20"
+                  className="p-2 md:p-3 bg-[#FFD56E] cursor-pointer bg-opacity-10 rounded-md border flex flex-col gap-2 border-[#543217] border-opacity-20 text-left w-full"
                 >
                   <span className="text-[#543217] font-medium text-sm md:text-base">
                     {location.label}
@@ -233,7 +246,7 @@ const Header = () => {
                   <span className="text-black font-medium text-xs md:text-sm">
                     {location.address}
                   </span>
-                </Link>
+                </button>
               )
             )}
             {selectedFranchise?.children?.length === 0 && (

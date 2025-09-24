@@ -1,3 +1,4 @@
+import { useDialogStore } from '@/store/useDialogStore';
 import { useEffect, useState } from 'react';
 
 export const StickyContactBar = ({
@@ -6,6 +7,7 @@ export const StickyContactBar = ({
   sectionRef: React.RefObject<HTMLDivElement | null>;
 }) => {
   const [isSticky, setIsSticky] = useState(true);
+  const { isDropdownOpen, setIsDropdownOpen } = useDialogStore();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -40,7 +42,7 @@ export const StickyContactBar = ({
         </div>
         <button className="bg-white text-[#5c8c30] px-4 md:px-6 py-1.5 md:py-2 cursor-pointer rounded-full font-semibold hover:bg-gray-100 transition-colors duration-300 flex items-center space-x-1 md:space-x-2 text-xs md:text-sm">
           <span className="text-orange-500">❤️</span>
-          <span>Liên hệ</span>
+          <button onClick={() => setIsDropdownOpen(true)}>Liên hệ</button>
         </button>
       </div>
     </div>

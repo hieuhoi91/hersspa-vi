@@ -45,7 +45,7 @@ const Gallery = () => {
           alt="Her S spa"
           width={100}
           height={100}
-          className="absolute top-4 md:top-6 lg:top-10 w-20 md:w-24 lg:w-32 left-[8%] md:left-[12%] lg:left-[16%]"
+          className="absolute hidden md:block top-4 md:top-6 lg:top-10 w-20 md:w-24 lg:w-32 left-[8%] md:left-[12%] lg:left-[16%]"
         />
         {/* Header */}
         <div className="text-center mb-8 md:mb-12 lg:mb-16">
