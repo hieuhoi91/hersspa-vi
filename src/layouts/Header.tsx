@@ -166,7 +166,7 @@ const Header = () => {
             alt="Logo"
             width={200}
             height={200}
-            className="w-[70%] md:w-[85%] absolute top-0 md:-top-3 left-1/2 transform -translate-x-1/2 rounded-b-0 lg:rounded-b-[50px] rounded-t-0 lg:rounded-t-[28px]"
+            className="w-[70%] md:w-[85%] absolute -top-1 md:-top-3 left-1/2 transform -translate-x-1/2 rounded-b-[16px] lg:rounded-b-[50px] rounded-t-0 lg:rounded-t-[28px]"
           />
         </div>
 
