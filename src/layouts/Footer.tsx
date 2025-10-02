@@ -4,26 +4,6 @@ const Footer = () => {
   return (
     <footer className="relative bg-cover bg-center bg-black/50 bg-blend-overlay bg-no-repeat pb-16 md:pb-28 text-white py-8 md:py-12 lg:py-16 bg-[url('/assets/footer.jpg')]">
       <div className="w-full max-w-[1200px] mx-auto px-4">
-        {/* Stats Section */}
-        <div className="flex flex-col sm:flex-row justify-center gap-8 sm:gap-16 md:gap-24 lg:gap-32 mb-8 md:mb-12 lg:mb-16">
-          <div className="text-center">
-            <div className="text-4xl sm:text-5xl md:text-6xl font-bold mb-1 md:mb-2">
-              5+
-            </div>
-            <div className="text-sm sm:text-base md:text-lg lg:text-xl">
-              Tỷ lệ hài lòng khách hàng
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="text-4xl sm:text-5xl md:text-6xl font-bold mb-1 md:mb-2">
-              200+
-            </div>
-            <div className="text-sm sm:text-base md:text-lg lg:text-xl">
-              Chi nhánh
-            </div>
-          </div>
-        </div>
-
         {/* Main Content */}
         <div className="flex flex-col lg:flex-row gap-8 md:gap-10 lg:gap-12 items-center lg:items-start justify-center lg:justify-between">
           {/* Left Side - Contact Info */}
