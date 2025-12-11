@@ -1,39 +1,10 @@
 'use client';
 
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import data from '@/data/data.json';
 import Image from 'next/image';
 
 const Gallery = () => {
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(entry.target);
-        }
-      },
-      {
-        threshold: 0.2,
-        rootMargin: '50px',
-      }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
-      if (sectionRef.current) {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-        observer.unobserve(sectionRef.current);
-      }
-    };
-  }, []);
-
   return (
     <section
       id="gallery"
@@ -55,15 +26,9 @@ const Gallery = () => {
           <div className="w-16 md:w-20 h-1 bg-gradient-to-r from-amber-500 to-orange-500 mx-auto"></div>
         </div>
 
-        <div
-          ref={sectionRef}
-          className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12"
-        >
+        <div className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12">
           {/* Row 1: First Large Image */}
-          <div
-            className={`${isVisible ? 'animate-slide-in-right' : 'opacity-0'}`}
-            style={{ animationDelay: '0.1s' }}
-          >
+          <div>
             <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[450px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group hover:scale-[1.02] hover:shadow-xl">
               <Image
                 src={data.gallery.images.large[0]}
@@ -77,10 +42,7 @@ const Gallery = () => {
           </div>
 
           {/* Row 2: Second Large Image */}
-          <div
-            className={`${isVisible ? 'animate-slide-in-right' : 'opacity-0'}`}
-            style={{ animationDelay: '0.3s' }}
-          >
+          <div>
             <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group hover:scale-[1.02] hover:shadow-xl">
               <Image
                 src={data.gallery.images.large[1]}
@@ -93,10 +55,7 @@ const Gallery = () => {
           </div>
 
           {/* Row 3: Mosaic Photo Gallery */}
-          <div
-            className={`${isVisible ? 'animate-slide-in-right' : 'opacity-0'}`}
-            style={{ animationDelay: '0.5s' }}
-          >
+          <div>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-2 sm:gap-3 md:gap-4 lg:gap-5">
               {data.gallery.images.grid.map((src, index) => (
                 <div
