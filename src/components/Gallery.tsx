@@ -29,12 +29,12 @@ const Gallery = () => {
         <div className="space-y-6 sm:space-y-8 md:space-y-10 lg:space-y-12">
           {/* Row 1: First Large Image */}
           <div>
-            <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[450px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group hover:scale-[1.02] hover:shadow-xl">
+            <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[450px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden">
               <Image
                 src={data.gallery.images.large[0]}
                 alt="Her S spa community activities"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-cover"
                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 1200px"
                 priority
               />
@@ -43,12 +43,12 @@ const Gallery = () => {
 
           {/* Row 2: Second Large Image */}
           <div>
-            <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden transition-all duration-300 group hover:scale-[1.02] hover:shadow-xl">
+            <div className="relative w-full h-[200px] xs400:h-[220px] xs:h-[250px] sm:h-[350px] md:h-[500px] lg:h-[600px] xl:h-[650px] rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden">
               <Image
                 src={data.gallery.images.large[1]}
                 alt="Her S spa team activities"
                 fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                className="object-cover"
                 sizes="(max-width: 640px) 100vw, (max-width: 768px) 100vw, (max-width: 1024px) 100vw, 1200px"
               />
             </div>
@@ -60,13 +60,13 @@ const Gallery = () => {
               {data.gallery.images.grid.map((src, index) => (
                 <div
                   key={index}
-                  className="relative aspect-square rounded-md sm:rounded-lg overflow-hidden group hover:scale-105 transition-all duration-300 hover:shadow-lg"
+                  className="relative aspect-square rounded-md sm:rounded-lg overflow-hidden"
                 >
                   <Image
                     src={src}
                     alt={`Community activity ${index + 1}`}
                     fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="object-cover"
                     sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw"
                   />
                 </div>
